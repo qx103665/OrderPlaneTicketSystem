@@ -107,7 +107,7 @@
       <workItem from="1610540849675" duration="134000" />
       <workItem from="1610541308806" duration="1417000" />
       <workItem from="1610543534836" duration="782000" />
-      <workItem from="1610544348697" duration="616000" />
+      <workItem from="1610544348697" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="抽取了Customer、Flight、Order类">
       <created>1610355859001</created>
@@ -214,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610544771648</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.正则表达式匹配并获取错误信息的内容&#10;2.获取所有的航班信息并显示出来">
+      <created>1610544973398</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544973398</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,10 +344,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="511" y="92" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1610540967026" />
-    <state x="723" y="0" key="CommitChangelistDialog2" timestamp="1610544770258">
+    <state x="723" y="0" key="CommitChangelistDialog2" timestamp="1610544971708">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="723" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610544770258" />
+    <state x="723" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610544971708" />
     <state x="716" y="220" key="FileChooserDialogImpl" timestamp="1610544538938">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -385,10 +392,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="577" height="255" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610540984387" />
-    <state x="511" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610544847008">
+    <state x="511" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610545003414">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="511" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610544847008" />
+    <state x="511" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610545003414" />
     <state x="616" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1610544354737">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
