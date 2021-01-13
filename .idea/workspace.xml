@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="280c697c-50a3-40f1-9a73-3650f4ae3a8c" name="Default Changelist" comment="1.正则表达式匹配并获取错误消息的内容&#10;2.获取所有的航班信息并显示出来">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderPlaneTicketSystem1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/bean/Flight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/bean/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/bll/IFlightService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/bll/impl/FlightServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/dao/IFlightDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/dao/impl/FlightDaoIml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem/cn/edu/hcnu/ui/MainUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/bean/Flight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/bean/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/bll/IFlightService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/bll/impl/FlightServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/dao/IFlightDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/dao/impl/FlightDaoIml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OrderPlaneTicketSystem1/cn/edu/hcnu/ui/MainUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0113" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\IdeaProjects\OrderPlaneTicketSystem\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mueUcrbf7oDSe9GzE6n1n9mURM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.hcnu.ui.MainUI" />
+      <module name="OrderPlaneTicketSystem1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.hcnu.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="280c697c-50a3-40f1-9a73-3650f4ae3a8c" name="Default Changelist" comment="" />
+      <created>1610347919498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610347919498</updated>
+      <workItem from="1610347920782" duration="7629000" />
+      <workItem from="1610409941845" duration="7583000" />
+      <workItem from="1610434619723" duration="9286000" />
+      <workItem from="1610496835562" duration="593000" />
+      <workItem from="1610499705650" duration="14051000" />
+      <workItem from="1610531432906" duration="263000" />
+      <workItem from="1610531968756" duration="650000" />
+      <workItem from="1610539293906" duration="931000" />
+    </task>
+    <task id="LOCAL-00001" summary="抽取了Customer、Flight、Order类">
+      <created>1610355859001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610355859001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1、项目结构搭建&#10;2、创建IFlightDao接口">
+      <created>1610421404744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610421404744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1、更新航班实体类，增加了seataNo和totalSeatsNum字段">
+      <created>1610422062859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610422062859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1、创建FlightDaoImpl类并实现IFlightDao接口&#10;2、创建MainUI类">
+      <created>1610423748126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610423748126</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1、创建IFlightService接口&#10;2、创建FlightServiceImpl类，并实现IFlightService接口">
+      <created>1610435475401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610435475401</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1、删除Flight中的seatsNo属性&#10;2、修改Flight中的totalSeatsNum为currentSeatsNum&#10;3、MainUI增加菜单">
+      <created>1610438287775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610438287775</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1、Flight增加flightId属性&#10;2、Flight增加构造函数给属性赋值&#10;3、Flight增加了toString方法&#10;4、输入航班信息并赋值给Flight的对象&#10;5、调用业务层">
+      <created>1610441884799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441884799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1、业务层调用DAO层">
+      <created>1610445560269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610445560269</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1、DAO层使用JDBC添加航班信息&#10;2、异常的概念、异常的分类、异常的处理、异常的项目中的应用">
+      <created>1610509903802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610509903802</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1、正则表达式处理SQL异常">
+      <created>1610528512038</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610528512038</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="抽取了Customer、Flight、Order类" />
+    <MESSAGE value="1、项目结构搭建&#10;2、创建IFlightDao接口" />
+    <MESSAGE value="1、更新航班实体类，增加了seataNo和totalSeatsNum字段" />
+    <MESSAGE value="1、创建FlightDaoImpl类并实现IFlightDao接口&#10;2、创建MainUI类" />
+    <MESSAGE value="1、创建IFlightService接口&#10;2、创建FlightServiceImpl类，并实现IFlightService接口" />
+    <MESSAGE value="1、删除Flight中的seatsNo属性&#10;2、修改Flight中的totalSeatsNum为currentSeatsNum&#10;3、MainUI增加菜单" />
+    <MESSAGE value="1、Flight增加flightId属性&#10;2、Flight增加构造函数给属性赋值&#10;3、Flight增加了toString方法&#10;4、输入航班信息并赋值给Flight的对象&#10;5、调用业务层" />
+    <MESSAGE value="1、业务层调用DAO层" />
+    <MESSAGE value="1、DAO层使用JDBC添加航班信息&#10;2、异常的概念、异常的分类、异常的处理、异常的项目中的应用" />
+    <MESSAGE value="1、正则表达式处理SQL异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、正则表达式处理SQL异常" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="30" key="CommitChangelistDialog2" timestamp="1610539830256">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="581" y="30" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610539830256" />
+    <state x="716" y="220" key="FileChooserDialogImpl" timestamp="1610540150323">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="716" y="220" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610540150323" />
+    <state x="931" y="369" width="382" height="175" key="Github.CreateGistDialog" timestamp="1610539818586">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="931" y="369" width="382" height="175" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1610539818586" />
+    <state x="763" y="369" key="Github.ShareDialog" timestamp="1610539468210">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="763" y="369" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610539468210" />
+    <state width="1154" height="206" key="GridCell.Tab.0.bottom" timestamp="1610531495946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1154" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610531495946" />
+    <state width="1154" height="206" key="GridCell.Tab.0.center" timestamp="1610531495946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1154" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610531495946" />
+    <state width="1154" height="206" key="GridCell.Tab.0.left" timestamp="1610531495946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1154" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610531495946" />
+    <state width="1154" height="206" key="GridCell.Tab.0.right" timestamp="1610531495946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1154" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610531495946" />
+    <state x="616" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1610539296929">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="616" y="303" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610539296929" />
+  </component>
+</project>
