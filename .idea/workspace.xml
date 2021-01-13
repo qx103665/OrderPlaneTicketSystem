@@ -106,6 +106,8 @@
       <workItem from="1610539293906" duration="1465000" />
       <workItem from="1610540849675" duration="134000" />
       <workItem from="1610541308806" duration="1417000" />
+      <workItem from="1610543534836" duration="782000" />
+      <workItem from="1610544348697" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="抽取了Customer、Flight、Order类">
       <created>1610355859001</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610541364290</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.更新航班实体类，增加了SeatsNo和totalSeatsNum字段&#10;2.Flight增加构造函数给属性赋值&#10;3.Flight增加flightID属性&#10;4.输入航班信息并赋值给Flight的对象&#10;5.调用业务层&#10;6.创建IFlightService接口&#10;7.创建FlightServiceImpl类，并实现IFlightService接口&#10;8.项目结构搭建&#10;9.创建IFlightDao接口">
+      <created>1610544229457</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544229457</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,29 +321,30 @@
     <MESSAGE value="1、正则表达式处理SQL异常" />
     <MESSAGE value="1.正则表达式匹配并获取错误消息的内容&#10;2.获取所有的航班信息并显示出来" />
     <MESSAGE value="0113" />
-    <option name="LAST_COMMIT_MESSAGE" value="0113" />
+    <MESSAGE value="1.更新航班实体类，增加了SeatsNo和totalSeatsNum字段&#10;2.Flight增加构造函数给属性赋值&#10;3.Flight增加flightID属性&#10;4.输入航班信息并赋值给Flight的对象&#10;5.调用业务层&#10;6.创建IFlightService接口&#10;7.创建FlightServiceImpl类，并实现IFlightService接口&#10;8.项目结构搭建&#10;9.创建IFlightDao接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.更新航班实体类，增加了SeatsNo和totalSeatsNum字段&#10;2.Flight增加构造函数给属性赋值&#10;3.Flight增加flightID属性&#10;4.输入航班信息并赋值给Flight的对象&#10;5.调用业务层&#10;6.创建IFlightService接口&#10;7.创建FlightServiceImpl类，并实现IFlightService接口&#10;8.项目结构搭建&#10;9.创建IFlightDao接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="511" y="92" key="#Notifications" timestamp="1610540967026">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="511" y="92" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1610540967026" />
-    <state x="581" y="26" key="CommitChangelistDialog2" timestamp="1610541354366">
+    <state x="723" y="0" key="CommitChangelistDialog2" timestamp="1610544632398">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="581" y="26" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610541354366" />
-    <state x="716" y="220" key="FileChooserDialogImpl" timestamp="1610543641017">
+    <state x="723" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610544632398" />
+    <state x="716" y="220" key="FileChooserDialogImpl" timestamp="1610544538938">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="716" y="220" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610543641017" />
+    <state x="716" y="220" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610544538938" />
     <state x="931" y="369" width="382" height="175" key="Github.CreateGistDialog" timestamp="1610539818586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="931" y="369" width="382" height="175" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1610539818586" />
-    <state x="763" y="369" key="Github.ShareDialog" timestamp="1610540593879">
+    <state x="763" y="369" key="Github.ShareDialog" timestamp="1610544554874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="763" y="369" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610540593879" />
+    <state x="763" y="369" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610544554874" />
     <state width="1154" height="205" key="GridCell.Tab.0.bottom" timestamp="1610543478536">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -367,13 +377,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="577" height="255" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610540984387" />
-    <state x="511" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610541393665">
+    <state x="511" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610544569693">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="511" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610541393665" />
-    <state x="616" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1610543535526">
+    <state x="511" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610544569693" />
+    <state x="616" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1610544354737">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="616" y="303" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610543535526" />
+    <state x="616" y="303" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610544354737" />
   </component>
 </project>
