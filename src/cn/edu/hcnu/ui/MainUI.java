@@ -22,7 +22,7 @@ public class MainUI {
             System.out.println("按3，查询航班信息");
             System.out.println("按4，机票预订");
             System.out.println("按5，机票退订");
-            System.out.println("按6，推出系统");
+            System.out.println("按6，退出系统");
 
             int choice = sc.nextInt();
 
