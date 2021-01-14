@@ -22,7 +22,7 @@ public class MainUI {
             System.out.println("按3，查询航班信息");
             System.out.println("按4，机票预订");
             System.out.println("按5，机票退订");
-            System.out.println("按6，退出系统");
+            System.out.println("按6，推出系统");
 
             int choice = sc.nextInt();
 
@@ -70,15 +70,37 @@ public class MainUI {
             } else if (choice == 2) {
                 IFlightService iFlightService = new FlightServiceImpl();
                 try {
-                    Set<Flight> allFlights=iFlightService.getAllFlights();
+                    Set<Flight> allFlights = iFlightService.getAllFlights();
                     /*
                     Set的遍历需要用到迭代器
                      */
-                    for(Flight flight:allFlights){
+                    for (Flight flight : allFlights) {
                         System.out.println(flight);
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
+                }
+            } else if (choice == 3) {
+                System.out.println("输入相应的编号选择您要查询航班的方式：");
+                System.out.println("1，按起飞时间查询");
+                System.out.println("2，按空座信息查询");
+                System.out.println("3，按起飞第查询");
+                System.out.println("4，按目的地查询");
+                int choose = sc.nextInt();
+                if (choose == 1) {
+                    System.out.println("请输入起飞时间：");
+                    String departureTime = sc.next();
+                    IFlightService iFlightService = new FlightServiceImpl();
+                    try {
+                        Flight flight = iFlightService.getFlightByDepartureTime(departureTime);
+                        if (flight != null) {
+                            System.out.println("查询结果：" + flight);
+                        } else {
+                            System.out.println("没有查询到该时间的航班");
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
